@@ -1,0 +1,58 @@
+*, html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*reset*/
+h1, p, li, ul, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* end */
+.wrapper {
+  width: 336px;
+  height: 1824px;
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+  grid: repeat(39, 1fr)/repeat(7, 1fr);
+}
+
+.balance {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-area: 1 / 1 / span 5 / span 7;
+  border: 1px solid black;
+}
+
+.Payment-due {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-area: 7 / 1 / span 4 / span 7;
+  border: 1px solid black;
+}
+
+.Activities {
+  -ms-grid-row: 12;
+  -ms-grid-row-span: 15;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-area: 12 / 1 / span 15 / span 7;
+  border: 1px solid black;
+}
+
+.Summary {
+  -ms-grid-row: 29;
+  -ms-grid-row-span: 11;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-area: 29 / 1 / span 11 / span 7;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=styles.css.map */
